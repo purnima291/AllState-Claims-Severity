@@ -15,7 +15,7 @@ Aim of this challenge is to build a Machine Learning model that can help Allstat
 This is a regression problem. To solve this challenge, we have to predict loss/cost of claim for each of the data point given to us. 
 
 ### 3.1. Performance Metrics
-Models are evaluated on the [mean absolute error (MAE)](https://en.wikipedia.org/wiki/Mean_absolute_error) between the predicted loss($\hat{y_i}$) and the actual loss($y_i$).
+Models are evaluated on the [mean absolute error (MAE)](https://en.wikipedia.org/wiki/Mean_absolute_error) between the predicted loss and the actual loss.
 
 
 ### 3.2. Data Overview
@@ -34,4 +34,8 @@ So there are total 136 features/columns and having following details:
 https://www.kaggle.com/sharmasanthosh/exploratory-study-on-ml-algorithms<br>
 https://www.kaggle.com/achalshah/allstate-feature-analysis-python
 
-## 4. Exploratory Data Analysis
+# EDA
+In eda, I did some simple analysis on both categorical and continuous features(See EDA.ipynb). By using Cramer's V method, I found that there are many pairs of categorical columns which have high association/correlation among them. Similarly, by using pearson's correlation coefficient, I got to know that few pairs of continuous features have high correlation. 
+
+# Feature Engineering
+This section is the heart of this project. As this competition from kaggle is few years old, so people had already shared there method that they used to solve this problem. Keeping those ways in mind, I tried to come up with my own method of doing feature engineering, which is quiet different from the pre-existing ones.
