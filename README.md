@@ -38,4 +38,10 @@ https://www.kaggle.com/achalshah/allstate-feature-analysis-python
 In eda, I did some simple analysis on both categorical and continuous features(See EDA.ipynb). By using Cramer's V method, I found that there are many pairs of categorical columns which have high association/correlation among them. Similarly, by using pearson's correlation coefficient, I got to know that few pairs of continuous features have high correlation. 
 
 # Feature Engineering
-This section is the heart of this project. As this competition from kaggle is few years old, so people had already shared there method that they used to solve this problem. Keeping those ways in mind, I tried to come up with my own method of doing feature engineering, which is quiet different from the pre-existing ones.
+This section is the heart of this project. As this competition from kaggle is few years old, so people had already shared there method that they used to solve this problem. Keeping those ways in mind, I tried to come up with my own method of doing feature engineering, which is quiet different from the pre-existing ones. 
+<For more details check out *Final_feature_engineering.ipynb* notebook and *Feature-set-selection.ipynb* notebook.
+
+# Modelling Section
+This section contains which Machine learning algorithm is applied to predict the loss. Xgboost performed better and MAE is reduced till 1228. For further details check *Model_building_part.ipynb* notebook.
+
+# Link to the Technical Blog desrcibing complete case study: 
